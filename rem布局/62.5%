@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link href="http://at.alicdn.com/t/font_1285443_9g8r6ctjvm.css" rel="stylesheet">
-    <title>历史工单</title>
+    <title>html页面</title>
     <style>
         *{margin:0;padding:0;list-style: none;}
         html{font-size: 62.5%}
@@ -28,6 +28,13 @@
             overflow-x: hidden;
             height: 100%;
         }
+        /*
+            width: 100%;
+            min-width: 100%;
+            overflow-x: hidden;
+            此处是为了解决，使用谷歌浏览器打开webapp后，右侧出现白边的问题
+
+        */
         .wrapper{
             width: 100%;
             height: 100%;
@@ -90,6 +97,11 @@
           width: .2rem;
           background: rgba(198,215,233,0.41);
         }
+        /*
+            
+            此处是使用after，还处于学习中
+
+        */
         .left>p{
             text-align: right;
             line-height: 1;
@@ -167,7 +179,7 @@
 </noscript>
 <div class="wrapper">
     <div class="header">
-        历史工单
+        html页面
     </div>
     <ul class="section">
         <li class="item">
@@ -179,9 +191,9 @@
                     <p>已完成</p>
                 </div>
                 <div class="right">
-                    <p>维修-硬盘处理器</p>
-                    <p>无服务要求</p>
-                    <p>张子枫 00000000000</p>
+                    <p>维修-电脑零件组装</p>
+                    <p>自带电脑一个</p>
+                    <p>汪汪汪 00000000000</p>
                     <p>
                         <span>北京市北京市北京市北京市北京市</span>
                         <!-- <i class="fa fa-weixin"></i> -->
@@ -202,9 +214,9 @@
                     <p>已完成</p>
                 </div>
                 <div class="right">
-                    <p>维修-硬盘处理器</p>
-                    <p>无服务要求</p>
-                    <p>张子枫 00000000000</p>
+                    <p>维修-电脑零件组装</p>
+                    <p>自带电脑一个</p>
+                    <p>汪汪汪 00000000000</p>
                     <p>
                         <span>北京市北京市北京市北京市北京市</span>
                         <!-- <i class="fa fa-weixin"></i> -->
@@ -225,9 +237,9 @@
                     <p>已完成</p>
                 </div>
                 <div class="right">
-                    <p>维修-硬盘处理器</p>
-                    <p>无服务要求</p>
-                    <p>张子枫 00000000000</p>
+                    <p>维修-电脑零件组装</p>
+                    <p>自带电脑一个</p>
+                    <p>汪汪汪 00000000000</p>
                     <p>
                         <span>北京市北京市北京市北京市北京市</span>
                         <!-- <i class="fa fa-weixin"></i> -->
@@ -248,9 +260,9 @@
                     <p>已完成</p>
                 </div>
                 <div class="right">
-                    <p>维修-硬盘处理器</p>
-                    <p>无服务要求</p>
-                    <p>张子枫 00000000000</p>
+                    <p>维修-电脑零件组装</p>
+                    <p>自带电脑一个</p>
+                    <p>汪汪汪 00000000000</p>
                     <p>
                         <span>北京市北京市北京市北京市北京市</span>
                         <!-- <i class="fa fa-weixin"></i> -->
